@@ -38,11 +38,11 @@ def drawMap():
   for arr in myarr:
     for value in arr:
       if (value == "0"):
-        drawSquare(x, y, side, "black")
+        drawSquare(x, y, side, "grey")
       elif (value == "1"):
         drawSquare(x, y, side, "white")
       elif (value == "2"):
-        drawSquare(x, y, side, "red")
+        drawSquare(x, y, side, "cyan")
       elif (value == "\n"):
         drawSquare(x, y, side, "none")
       else:
